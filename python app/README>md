@@ -1,0 +1,114 @@
+# 📝 Quick Note Application
+
+## 📌 Project Overview
+
+The **Quick Note Application** is a simple and user-friendly web application developed using HTML, CSS, JavaScript, Python Flask, and SQLite Database.
+
+It allows users to create, save, view, and delete notes easily. All notes are stored permanently in an SQLite database.
+
+## 🚀 Features
+
+- Create new notes.
+- Save notes to the database.
+- View all saved notes.
+- Delete unwanted notes.
+- Automatic database creation.
+- Simple and responsive user interface.
+- Permanent note storage using SQLite.
+
+## 🛠️ Technologies Used
+
+- **HTML** – Webpage structure.
+- **CSS** – Styling and design.
+- **JavaScript** – Frontend functionality.
+- **Python** – Backend programming.
+- **Flask** – Web framework.
+- **SQLite** – Database management.
+
+## 📂 Project Structure
+
+```text
+QuickNoteApplication/
+│
+├── app.py
+├── notes.db
+│
+├── templates/
+│   └── index.html
+│
+└── static/
+    ├── style.css
+    └── script.js
+```
+
+## ⚙️ Installation and Setup
+
+### Step 1: Clone the Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### Step 2: Open the Project Folder
+
+```bash
+cd QuickNoteApplication
+```
+
+### Step 3: Install Flask
+
+```bash
+pip install flask
+```
+
+### Step 4: Run the Application
+
+```bash
+python app.py
+```
+
+### Step 5: Open in Browser
+
+```text
+http://127.0.0.1:5000
+```
+
+## 💡 How to Use
+
+1. Open the application in your browser.
+2. Enter your note in the text area.
+3. Click the **Save Note** button.
+4. View your saved notes below.
+5. Click **Delete** to remove an unwanted note.
+
+## 🗄️ Database
+
+The application uses SQLite to store notes.
+
+The `notes.db` database file is automatically created when the application starts.
+
+Each note contains:
+- Note ID
+- Note Content
+- Created Date and Time
+
+## 🎯 Project Objective
+
+The main objective of this project is to understand frontend and backend integration, Python Flask development, database connectivity, and CRUD operations.
+
+## 📚 Learning Outcomes
+
+- Understanding HTML, CSS, and JavaScript.
+- Learning Python Flask framework.
+- Connecting frontend with backend.
+- Working with SQLite database.
+- Implementing CRUD operations.
+- Handling HTTP requests using Fetch API.
+
+## 👨‍💻 Author
+
+**Nagamallikarjuna Veeramreddy**
+
+## 📄 License
+
+This project is created for educational and learning purposes.
