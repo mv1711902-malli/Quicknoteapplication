@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Quick Note Application</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📝 Quick Note</h1>
+
+        <div class="note-box">
+
+            <h3>New Note</h3>
+
+            <textarea
+                id="noteInput"
+                placeholder="Type your note here...">
+            </textarea>
+
+            <button id="saveBtn" onclick="saveNote()">
+                Save Note
+            </button>
+
+        </div>
+
+        <div class="saved-notes">
+
+            <h2>Your Saved Notes</h2>
+
+            <div id="notesList">
+                Loading notes...
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}">
+    </script>
+
+</body>
+</html>
